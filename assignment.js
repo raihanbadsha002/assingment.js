@@ -63,9 +63,9 @@ function megaFriend(friendsName) {
     var largerName = "";
     for (var i = 0; i < friendsName.length; i++) {
         var element = friendsName[i];
-        if (element == "") {
+        if (element == "" ) {
             return "Please enter your friend's name";
-        } else if (element.length > largerName.length) {
+        } else if (element.length > largerName.length && element[element.length-1] != " ") {
             largerName = element;
         }
     }
