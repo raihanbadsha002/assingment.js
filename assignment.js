@@ -1,13 +1,15 @@
+
 // ========***Convert from Kilometers to Meters***========//
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
-    if (meter < -1) {
+    if (meter <= -1) {
         return "Distance cannot be negative";
     } else {
         return meter;
     }
 }
+
 
 
 // ========***Budget Calculator********===================//
