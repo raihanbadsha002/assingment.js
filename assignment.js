@@ -55,7 +55,7 @@ function hotelCost(days) {
 
 
 
-// ===================***Mega Friend***===========================//
+// ===================***Mega Friend***=======================//
 
 function megaFriend(friendsName) {
     var largerName = "";
